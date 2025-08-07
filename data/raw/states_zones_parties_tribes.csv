@@ -1,0 +1,38 @@
+State,Zone,Typical_Parties,Major_Tribes,Minority_Tribes
+Benue,North Central,"APC,PDP",Tiv,"Idoma,Igede,Hausa,Fulani"
+Kogi,North Central,"APC,PDP","Igala","Ebira,Yoruba,Hausa,Fulani,Bassa"
+Kwara,North Central,"APC,PDP","Yoruba","Nupe,Bariba,Hausa,Fulani"
+Nasarawa,North Central,"APC,PDP","Eggon,Mada","Gbagyi,Hausa,Fulani,Tiv,Alago"
+Niger,North Central,"APC,PDP","Nupe,Gbagyi","Hausa,Fulani,Kambari,Dakarkari"
+Plateau,North Central,"APC,PDP","Berom,Tarok","Afizere,Hausa,Fulani,Tiv,Anaguta"
+Abuja Federal Capital Territory,North Central,"APC,PDP",Gbagyi,"Hausa,Fulani,Gwandara,Bassa,Koro"
+Adamawa,North East,"APC,PDP","Fulani,Bachama,Hausa","Kanuri,Chamba,Tiv"
+Bauchi,North East,"APC,PDP","Hausa,Fulani","Gerawa,Sayawa,Jarawa,Bolewa"
+Borno,North East,"APC,PDP","Kanuri,Hausa,Fulani","Shuwa Arab,Margi,Babur"
+Gombe,North East,"APC,PDP","Hausa,Fulani","Tangale,Waja,Bole"
+Taraba,North East,"APC,PDP","Jukun,Chamba","Tiv,Hausa,Fulani,Mumuye"
+Yobe,North East,"APC,PDP","Kanuri,Hausa","Fulani,Bole,Ngizim"
+Jigawa,North West,"APC,NNPP",Hausa,Fulani
+Kaduna,North West,"APC,NNPP","Hausa,Fulani","Gbagyi,Kataf,Bajju,Kamuku"
+Kano,North West,"APC,NNPP",Hausa,Fulani
+Katsina,North West,"APC,NNPP",Hausa,Fulani
+Kebbi,North West,"APC,NNPP","Hausa,Fulani","Dakarkari,Kambari"
+Sokoto,North West,"APC,NNPP",Hausa,Fulani
+Zamfara,North West,"APC,NNPP",Hausa,Fulani
+Abia,South East,LP,Igbo,Ibibio
+Anambra,South East,LP,Igbo
+Ebonyi,South East,LP,Igbo
+Enugu,South East,LP,Igbo
+Imo,South East,LP,Igbo
+Akwa Ibom,South South,"LP,PDP",Ibibio,"Anang,Oron,Eket"
+Bayelsa,South South,"LP,PDP",Ijaw
+Cross River,South South,"LP,PDP",Efik","Ibibio,Ejagham,Bekwarra,Boki"
+Delta,South South,"LP,PDP","Urhobo,Ijaw,Igbo","Itsekiri,Isoko"
+Edo,South South,"LP,PDP","Edo,Esan","Etsako,Yoruba,Urhobo"
+Rivers,South South,"LP,PDP","Ijaw,Igbo","Ogoni,Ikwerre,Eleme,Abua"
+Ekiti,South West,APC,Yoruba
+Lagos,South West,APC,Yoruba,"Awori,Egun"
+Ogun,South West,APC,Yoruba
+Ondo,South West,APC,Yoruba,"Ijaw,Ilaje"
+Osun,South West,APC,Yoruba
+Oyo,South West,APC,Yoruba

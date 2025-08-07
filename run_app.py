@@ -5,17 +5,25 @@ import sys
 import time
 
 # Your ngrok auth token
-NGROK_AUTH_TOKEN = "30s8CoWhd1VmMkAx2zTfawQPHHS_685uXcb4KqXvbpvgfTkWJ"
+NGROK_AUTH_TOKEN = "30yNJYax8EUfMAIbMBYmcq21KI1_2zeJTSGTZCtJWHQSS5gTZ"
 
 def setup_ngrok():
     # Configure ngrok
     ngrok.set_auth_token(NGROK_AUTH_TOKEN)
     
     # Start ngrok tunnel
-    public_url = ngrok.connect(8502)  # Streamlit's default port
-    print(f"\nNgrok tunnel is running at: {public_url}")
-    print("\nShare this URL to access your Streamlit app from anywhere!")
-    return public_url
+    try:
+        # Connect to ngrok
+        tunnel = ngrok.connect(8501)
+        
+        # Get the public URL
+        public_url = str(tunnel)
+        print(f"\nNgrok tunnel is running at: {public_url}")
+        print("\nShare this URL to access your Streamlit app from anywhere!")
+        return public_url
+    except Exception as e:
+        print(f"\nFailed to create ngrok tunnel: {str(e)}")
+        return None
 
 def run_streamlit():
     # Run streamlit in a separate process
