@@ -10,7 +10,7 @@ import matplotlib.colors as mcolors
 
 # Set page config
 st.set_page_config(
-    page_title="Nigeria States Visualization",
+    page_title="Snapstats",
     page_icon="🗺️",
     layout="wide"
 )
