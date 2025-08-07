@@ -1,4 +1,4 @@
-# Nigeria States Map Visualization
+# Snapstats - Nigeria States Map Visualization
 
 This project provides an interactive visualization of Nigeria's states using GeoJSON data. It includes an ETL pipeline for data processing and a Streamlit web application for visualization.
 
@@ -14,7 +14,7 @@ This project provides an interactive visualization of Nigeria's states using Geo
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd map1
+cd Snapstats
 ```
 
 2. Create a virtual environment (optional but recommended):
