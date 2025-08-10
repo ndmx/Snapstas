@@ -15,6 +15,16 @@ st.set_page_config(
     layout="wide"
 )
 
+# Brand header with favicon if present
+_favicon_path = os.path.join('assets', 'favicon.png')
+if os.path.exists(_favicon_path):
+    st.sidebar.image(_favicon_path, width=64)
+
+st.markdown("""
+### Snapstats
+A fast, interactive dashboard for Nigeria's states — zones, tribes, parties, maps, and analytics.
+""")
+
 
 def load_data():
     """Load and return the processed GeoJSON data"""
